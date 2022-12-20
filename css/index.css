@@ -1,0 +1,39 @@
+* {
+    padding: 0;
+    margin: 0;
+}
+
+html {
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.video {
+    width: 100vw;
+    height: 100vh;
+    object-fit: cover;
+    position: fixed;
+}
+div{
+    position: relative;
+    top: 5vh;
+}
+
+.botonPrincipal{
+    position: relative;
+    color: aliceblue;
+    text-align: center;
+    top: 5vh;
+    background-color: gainsboro;
+    width: fit-content;
+    border-radius: 5px;
+}
+
+button,a{
+    width: 10rem;
+}
+
+body{
+    display: flex;
+    justify-content: center;
+    gap: 5px;
+}
